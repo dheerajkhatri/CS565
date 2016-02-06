@@ -1,0 +1,117 @@
+Number of Sentences are 8618
+Before Lemmatization Analysis is as below:
+Total Number of Words are 192714
+---------------------------------------------
+
+Top 10 frequent Unigrams are: 
+
+, -> 11979
+. -> 6934
+to -> 5120
+the -> 4821
+and -> 4644
+of -> 4258
+I -> 3191
+-- -> 3077
+a -> 2998
+her -> 2395
+was -> 2377
+
+Total Unigrams Required for 90% coverage of corpus is 1114 out of 7755
+---------------------------------------------
+
+Top 10 frequent Bigrams are: 
+
+, and -> 1877
+. '' -> 1158
+'' `` -> 982
+; and -> 864
+. -- -> 714
+to be -> 594
+. I -> 570
+, I -> 569
+of the -> 550
+, '' -> 438
+in the -> 431
+
+Total Bigrams Required for 80% coverage of corpus is 25665 out of 64208
+---------------------------------------------
+
+Top 10 frequent Trigrams are: 
+
+. '' `` -> 754
+, '' said -> 225
+? '' `` -> 146
+'' `` I -> 138
+I do not -> 135
+. It was -> 117
+I am sure -> 109
+`` Oh ! -> 92
+, and the -> 89
+, however , -> 88
+, my dear -> 87
+
+Total Trigrams Required for 70% coverage of corpus is 80378 out of 138192
+----------------------------------------------------
+----------------------------------------------------
+Performing Lemmatization
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+[main] INFO edu.stanford.nlp.pipeline.TokenizerAnnotator - TokenizerAnnotator: No tokenizer type provided. Defaulting to PTBTokenizer.
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... done [2.1 sec].
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+Lemmatization Done
+After Lemmatization Analysis is as below:
+Total Number of Words are 192714
+---------------------------------------------
+
+Top 10 frequent Unigrams are: 
+
+, -> 11979
+be -> 8201
+. -> 6934
+to -> 5176
+the -> 5175
+and -> 4868
+she -> 4844
+of -> 4270
+I -> 3774
+he -> 3716
+a -> 3583
+
+Total Unigrams Required for 90% coverage of corpus is 700 out of 5678
+---------------------------------------------
+
+Top 10 frequent Bigrams are: 
+
+, and -> 1879
+. '' -> 1158
+'' `` -> 982
+; and -> 864
+it be -> 777
+. -- -> 714
+have be -> 610
+to be -> 608
+. I -> 570
+, I -> 569
+of the -> 553
+
+Total Bigrams Required for 80% coverage of corpus is 17150 out of 54709
+---------------------------------------------
+
+Top 10 frequent Trigrams are: 
+
+. '' `` -> 754
+, '' say -> 225
+. it be -> 175
+I do not -> 162
+'' `` I -> 147
+? '' `` -> 146
+I be sure -> 111
+it be a -> 105
+. she be -> 104
+, it be -> 99
+it be not -> 96
+
+Total Trigrams Required for 70% coverage of corpus is 72276 out of 130090
